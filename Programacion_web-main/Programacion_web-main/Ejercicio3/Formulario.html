@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi formulario</title>  
+    <link rel="stylesheet" href="stilos.css">
+    <style>
+        h1{
+        color : red;
+        font-size: 30px;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Formulario 1</h1>
+    <form action="envio.html" method="post">
+        <label for="name">Nombre</label>
+        <input type="text"name="nombre" id="name"placeholder="Ingresar su nombre completo">
+        <label for="lastname">Apellido</label>
+        <input type="text"name ="nombre" id="lastname"placeholder="Ingresar apellidos">
+        <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Formulario 2</h2>
+        <form action="#" method="post">
+            <u1>
+                <li>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="user_name" placeholder="Ingresar su nombre"/>
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico</label>
+                    <input type="email" id="mail"name="user_email" placeholder="Ingresar correo" />
+            </li>
+            <li>
+                    <label for="msg">Mensaje</label>
+                    <textarea id="msg" name="user_messager"></textarea>
+                </li>
+            </u1>
+            <button type="submit"> Enviar</button>
+        </form>
+    </section>
+    <section>
+        <h3>Formulario 3</h3>
+        <fieldset>
+            <p>
+                <input type="radio" name="tamaño" id="tam_1" value="pequeño">
+                <label for ="tam_1">Pequeño </label>
+            </p>
+            <p>
+                <input type="radio" name="tamaño" id="tam_2" value="mediano">
+                <label for ="tam_2">Mediano </label>
+            </p>
+            <p>
+                <input type="radio" name="tam" id="tam_3" value="grande">
+                <label for ="tam_3">Grande </label>
+            </p>
+            <p>
+                <input type="checkbox" id ="sabor_1" name="cerveza" value="cerveza">
+                <label for ="sabor_1">Mes gusta las cervezas </label>
+            </p>
+            <p>
+                <input type="checkbox" id ="sabor_2" name="sabor_banana" value="banana">
+                <label for ="sabor_2">Mes gusta los platanos </label>
+            </p>
+        </fieldset>
+    </section>
+    <section>
+        <h1>Datos del usuario</h1>
+        <form action="#" method="post">
+            <u1>
+                <li>
+                    <label for="name">Nombre completo</label>
+                    <input type="text" id="name" name="user_name" placeholder=""/>
+                </li>
+                <li>
+                    <label for="lastname">Apellido</label>
+                    <input type="text"name ="nombre" id="lastname"placeholder="">    
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico</label>
+                    <input type="texto" id="mail"name="user_email" placeholder="" />
+                </li>
+                <li>
+                    <label for="age">Edad</label>
+                    <input type="int" id="edad"name="age" placeholder="" />
+                </li>
+                <p>
+                    <label for="mail">Genero: </label>
+                    <input type="radio" name="tamaño" id="tam_1" value="Hombre">
+                    <label for ="tam_1">hombre </label>
+                    <input type="radio" name="tamaño" id="tam_2" value="mujer">
+                    <label for ="tam_2">Mujer </label>
+                </p>
+    </section>
+</body> 
+</html>

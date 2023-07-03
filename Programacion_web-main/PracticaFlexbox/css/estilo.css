@@ -1,0 +1,205 @@
+/* Paleta de colores
+#202D73
+#023E73
+#05AFF2
+#05C7F2
+#04011E 
+*/
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 400;
+    margin: 0;
+  }
+  
+  /*Genericos*/
+  .contenedor {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+  }
+  
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em 0 0;
+    font-size: 1.2rem;
+    border-radius: 0.3em;
+    color: #fff;
+    background-color: #7c73b8b0;
+  }
+  
+  .bg-img-fondo {
+    background-image: url(/assets/goku5.jpg);
+    height: 18.75rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .bg-transp {
+    background-color: #432d7a82;
+    padding: 1.5em 0 1.5em 0;
+  }
+  
+  .nav-logo-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .nav-logo a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 2rem;
+  }
+  
+  .nav-logo img {
+    width: 2.5em;
+  }
+  
+  .nav-menu {
+    background-color: #d3605ab0;
+    padding: 1rem;
+    margin-top: -2em;
+    border-radius: 0.3em;
+    font-weight: 400;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.3em;
+  }
+  
+  .nav-link:hover {
+    background-color: #fff;
+    color: black;
+    border-radius: 0.3em;
+  }
+  
+  /**********
+   Principal
+  **********/
+  
+  .principal {
+    background-color: #1d4d48;
+    margin-top: -2.5em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+  }
+  
+  .titulo-principal {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /**********
+   Tarjeta
+  **********/
+  
+  .card {
+    background-color: rgb(44, 161, 130);
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+  }
+  .img-card {
+    width: 100%;
+  }
+  .body-card {
+    padding: 1em;
+  }
+  
+  .body-card h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  
+  .body-card p {
+    font-weight: 200;
+  }
+  
+  .btn-card {
+    background-color: #31c75c;
+    color: #fff;
+  }
+  
+  /**********
+   Contacto
+  **********/
+  
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    background-color: #a02b4c;
+  }
+  
+  .img-col-contacto {
+    background-image: url("/assets/goku7.jpg");
+    height: 21.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    order: 2;
+  }
+  
+  .txt-col-contacto {
+    order: 1;
+  }
+  
+  .body-contacto {
+    font-weight: 200;
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .body-contacto h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  .body-contacto a {
+    font-weight: 500;
+  }
+  
+  /***************
+   Pie de pagina
+  ***************/
+  
+  .bg-footer {
+    background-color: #630411;
+    color: #fff;
+  }
+  
+  .bg-footer p {
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+  }
+  

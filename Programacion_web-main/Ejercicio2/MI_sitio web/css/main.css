@@ -1,0 +1,125 @@
+a{
+    text-decoration: none
+}
+body{
+    font-family: 'Open Sans', sans-ser;
+}
+#cubierta {
+    width: 940px;
+    margin: 0px 15px 0px 15px;
+    background-color: brown;
+    padding: 0% 15% 0% 15%;
+}
+#logo{
+    text-align:center;
+    margin-left: 0px;
+    margin-right:0px;
+}
+/************
+EMCABEZADO
+*************/
+header{
+    background-color: #FF884B;
+    border-color: rgb(0, 0, 0);
+    border-color: #FF577F;
+    border-radius: 15px;
+}
+header{
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #fff;
+}
+/***********
+NAVEGACIÓN
+***********/
+nav {
+    text-align: center;
+    padding: 10px px;
+    margin: 20px 0px 0px;
+}
+nav{
+    font-weight:800;
+    padding: 15px 8px 15px 8px;
+}
+nav u1{
+    list-style:none ;
+    margin:0 10px o 10px;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+}
+/*************
+PIE DE PÁGINA
+*************/
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px ;
+    color: none#ccc;
+    clear: both;
+}
+#icono-social{
+    width: 20px;
+    height: 5px;
+    margin: 0 5px 0 5px;
+}
+/**********
+REGLAS DE GALERIA
+**********/
+#galeria{
+    margin: 0;
+    padding: 0;
+    list-style: 100%;
+}
+#galeria li{
+    float: left;
+    width:45%;
+    margin: 2.5%;
+    background-color: #fff;
+    color: rgb(204, 204, 204);
+}
+#galeria p{
+margin: 0;
+margin: 5%;
+font-size: 0.9em;
+color: #9E7676; 
+background-color:#A8E890 ;
+}
+
+nav {
+    background-color: #0909;
+}
+
+nav a, nav a:visited{
+    color: #EDEDED ;
+}
+nav a.selected, nav a:hover{
+    color: red;
+}
+body {
+    color :aqua;
+    background-color: blue;
+}
+h1{
+    font-family: "courgette",cursive;
+    margin: 15px, 0px, 15px, 0px;
+    font-size: 1.75;
+    font-weight: normal;
+}
+h2{
+    font-size: 1em;
+    margin: -13px, 0px, opx;
+    font-weight: normal;
+}
+/**********
+IMAGENES DE GALERIA
+**********/
+img{
+    max-width: 100%;
+}
