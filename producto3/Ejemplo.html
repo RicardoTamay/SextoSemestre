@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Motor de renderizado 2D</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="900" height="500"></canvas>
+    <script >
+        // Obtenemos el canvas y su contexto
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+
+// Creamos un objeto Image
+var imagen = new Image();
+imagen.src = "fish.png";
+
+// Definimos las variables de posición y velocidad
+var x = 100;
+var y = 100;
+var vx = 5;
+var vy = 3;
+
+// Definimos la función que se ejecutará en cada frame
+function render() {
+  // Limpiamos el canvas
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Dibujamos la imagen en su posición actual
+  ctx.drawImage(imagen, x, y);
+
+  // Actualizamos la posición de la imagen
+  x += vx;
+  y += vy;
+
+  // Si la imagen choca con los bordes del canvas, invertimos su velocidad
+  if (x + imagen.width > canvas.width || x < 0) {
+    vx = -vx;
+  }
+  if (y + imagen.height > canvas.height || y < 0) {
+    vy = -vy;
+  }
+}
+
+// Llamamos a la función render cada 10 milisegundos para actualizar el canvas
+setInterval(render, 90);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.cuadrado{
+    width: 300px;
+    height: 300px; 
+    background-color: blue;
+    border: 10px solid #030303;
+    margin-left: 5%;
+    margin-top: 5%;
+
+  } 
+  .cuadradito{
+    transform: scale(0.5);
+    transition: width 3s;
+  }
+
+  .cuadradito:hover {
+    margin-left: 70%;
+    background: #ff7b29;
+    border-radius: 50%
+  }

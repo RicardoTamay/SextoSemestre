@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nunca dejes de aprender</title>
+    <script>
+       let jugador=0 ;
+       pc =  3;
+       jugador= prompt ("Elige: 1 si es piedra, elige 2 si es papel, elige 3 si es tijera: ")
+
+       if(jugador == 1){ 
+        alert("ELEGISTE  ✊")
+       }else if(jugador == 2){
+        alert("ELEGISTE 📄")
+       }else if (jugador == 3){
+        alert("ELEGISTE ✂️")
+       }else{
+        alert("ELEGISTE PERDER")
+       }
+       if(pc == 1){ 
+        alert("PC ELIGE  ✊")
+       }else if(pc == 2){
+        alert("PC ELIGE  📄")
+       }else if (pc == 3){
+        alert("PC ELIGE ✂️")
+       }
+       if (jugador == pc){
+        alert("EMPATE")
+       } else if(jugador == 1 && pc == 3 ){
+        alert("GANASTE")
+       }else if(jugador == 2 && pc == 1){
+        alert("GANASTE")
+       }else if(jugador == 3 && pc == 2){
+        alert("GANASTE")
+       }else{
+        alert("PERDISTE")
+       }
+     
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

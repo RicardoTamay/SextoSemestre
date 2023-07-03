@@ -1,0 +1,21 @@
+.circulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FIG {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 6px solid black;
+    border-radius: 50%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo:hover{
+    transform: scale(3) rotate(5turn);
+    transition-duration: 2s;
+}
+
